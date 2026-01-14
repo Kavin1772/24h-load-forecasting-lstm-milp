@@ -1,0 +1,28 @@
+tou:
+  currency: USD
+  # price per kWh by hour (0–23). Example: off-peak cheap, evening peak
+  prices: [0.12,0.12,0.12,0.12,0.12,0.12,0.15,0.18,0.22,0.25,0.28,0.30,0.30,0.28,0.25,0.22,0.20,0.22,0.28,0.30,0.30,0.22,0.18,0.14]
+
+appliances:
+  # Non-interruptible: must run for duration in a single block between earliest_start..latest_end
+  - name: "Washer"
+    rated_kw: 0.7
+    duration_h: 1
+    earliest_start: 7      # earliest hour-of-day it may start (0-23)
+    latest_end: 22         # latest hour it must be finished by
+    interruptible: false
+
+  - name: "Dryer"
+    rated_kw: 2.0
+    duration_h: 1
+    earliest_start: 8
+    latest_end: 23
+    interruptible: false
+
+  # Interruptible: can be split into 1h chunks anywhere in window
+  - name: "EV_Charge"
+    rated_kw: 3.6
+    duration_h: 4          # total hours needed
+    earliest_start: 0
+    latest_end: 7
+    interruptible: true

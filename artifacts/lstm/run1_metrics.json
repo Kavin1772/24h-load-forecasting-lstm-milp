@@ -1,0 +1,21 @@
+{
+  "val": {
+    "loss": 8327.60234860512
+  },
+  "test": {
+    "loss": 7423.512231415417,
+    "rmse": 86.15980529785156,
+    "mae": 35.75722885131836,
+    "mape": 3776035.25
+  },
+  "data": {
+    "train": "A:\\AI in Engg\\Project\\artifacts\\lstm\\run1_t168_h24_train.npz",
+    "val": "A:\\AI in Engg\\Project\\artifacts\\lstm\\run1_t168_h24_val.npz",
+    "test": "A:\\AI in Engg\\Project\\artifacts\\lstm\\run1_t168_h24_test.npz",
+    "meta": "A:\\AI in Engg\\Project\\artifacts\\lstm\\run1_t168_h24_meta.json"
+  },
+  "in_features": 4,
+  "t_in": 168,
+  "t_out": 24,
+  "tag": "run1"
+}

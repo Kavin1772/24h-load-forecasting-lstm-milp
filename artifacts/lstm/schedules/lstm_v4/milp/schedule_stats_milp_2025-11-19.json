@@ -1,0 +1,17 @@
+{
+  "currency": "USD",
+  "naive_cost": 2.8041049454063174,
+  "opt_cost": 2.6721049454063177,
+  "savings_$": 0.13199999999999967,
+  "base_peak_kw": 0.1203010156750679,
+  "naive_peak_kw": 3.720037950575352,
+  "opt_peak_kw": 3.7198542788624764,
+  "peak_reduction_kw": 0.0001836717128753662,
+  "power_cap_kw": 5.0,
+  "precedence": [
+    {
+      "before": "Washer",
+      "after": "Dryer"
+    }
+  ]
+}

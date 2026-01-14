@@ -1,0 +1,22 @@
+data:
+  csv_path: "A:\\AI in Engg\\Project\\Data File\\ukdale_house1.csv"
+  timestamp_col: timestamp
+  target_col: power
+  feature_cols: ["power"]   # <-- add this
+  timezone: null
+
+
+splits:
+  train_start: "2013-02-14"
+  train_end:   "2013-04-14"
+  val_start:   "2013-04-14"
+  val_end:     "2013-05-14"
+  test_start:  "2013-05-14"
+  test_end:    "2013-06-14"
+
+scaler:
+  type: standard
+  save_path: "A:\\AI in Engg\\Project\\artifacts\\scaler.pkl"
+
+outputs:
+  splits_dir: "A:\\AI in Engg\\Project\\artifacts\\splits"

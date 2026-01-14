@@ -1,0 +1,21 @@
+{
+  "val": {
+    "loss": 2007.8641846506528
+  },
+  "test": {
+    "loss": 4932.605575697326,
+    "rmse": 70.23246002197266,
+    "mae": 13.134554862976074,
+    "mape": 4203750.0
+  },
+  "data": {
+    "train": "A:\\AI in Engg\\Project\\artifacts\\lstm\\h256_t168_h24_train.npz",
+    "val": "A:\\AI in Engg\\Project\\artifacts\\lstm\\h256_t168_h24_val.npz",
+    "test": "A:\\AI in Engg\\Project\\artifacts\\lstm\\h256_t168_h24_test.npz",
+    "meta": "A:\\AI in Engg\\Project\\artifacts\\lstm\\h256_t168_h24_meta.json"
+  },
+  "in_features": 1,
+  "t_in": 168,
+  "t_out": 24,
+  "tag": "h256"
+}

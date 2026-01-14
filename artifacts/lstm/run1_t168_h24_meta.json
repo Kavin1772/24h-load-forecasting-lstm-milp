@@ -1,0 +1,31 @@
+{
+  "config_path": "configs/config.yaml",
+  "scaler_path": "A:\\AI in Engg\\Project\\artifacts\\scaler_run1_t168_h24.pkl",
+  "features": [
+    "power",
+    "hour",
+    "dow",
+    "month"
+  ],
+  "T_in": 168,
+  "T_out": 24,
+  "stride": 1,
+  "use_time_features": true,
+  "shapes": {
+    "train": [
+      83512,
+      168,
+      4
+    ],
+    "val": [
+      43009,
+      168,
+      4
+    ],
+    "test": [
+      44449,
+      168,
+      4
+    ]
+  }
+}

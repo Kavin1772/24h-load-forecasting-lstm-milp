@@ -1,0 +1,6 @@
+.env
+.vscode/settings.json
+Draft 1.ipynb
+Data File/ukdale_house1.csv
+Data File/ukdale.h5
+outputs/ukdale_baseline/model_RandomForest.joblib

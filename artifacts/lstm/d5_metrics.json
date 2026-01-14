@@ -1,0 +1,21 @@
+{
+  "val": {
+    "loss": 12072.459286185547
+  },
+  "test": {
+    "loss": 8620.231529323164,
+    "rmse": 92.84513092041016,
+    "mae": 30.465808868408203,
+    "mape": 3855617.25
+  },
+  "data": {
+    "train": "A:\\AI in Engg\\Project\\artifacts\\lstm\\d5_t168_h24_train.npz",
+    "val": "A:\\AI in Engg\\Project\\artifacts\\lstm\\d5_t168_h24_val.npz",
+    "test": "A:\\AI in Engg\\Project\\artifacts\\lstm\\d5_t168_h24_test.npz",
+    "meta": "A:\\AI in Engg\\Project\\artifacts\\lstm\\d5_t168_h24_meta.json"
+  },
+  "in_features": 1,
+  "t_in": 168,
+  "t_out": 24,
+  "tag": "d5"
+}

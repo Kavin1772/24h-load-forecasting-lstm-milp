@@ -1,0 +1,21 @@
+{
+  "val": {
+    "loss": 23223.88339518423
+  },
+  "test": {
+    "loss": 13796.95549250328,
+    "rmse": 117.46046447753906,
+    "mae": 47.915287017822266,
+    "mape": 3330205.75
+  },
+  "data": {
+    "train": "A:\\AI in Engg\\Project\\artifacts\\lstm\\L2_t168_h24_train.npz",
+    "val": "A:\\AI in Engg\\Project\\artifacts\\lstm\\L2_t168_h24_val.npz",
+    "test": "A:\\AI in Engg\\Project\\artifacts\\lstm\\L2_t168_h24_test.npz",
+    "meta": "A:\\AI in Engg\\Project\\artifacts\\lstm\\L2_t168_h24_meta.json"
+  },
+  "in_features": 1,
+  "t_in": 168,
+  "t_out": 24,
+  "tag": "L2"
+}
